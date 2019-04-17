@@ -149,6 +149,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
+# Broadcast
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
