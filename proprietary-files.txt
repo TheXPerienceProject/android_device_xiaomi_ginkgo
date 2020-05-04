@@ -30,8 +30,6 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|b3e4b897e3481bc7261360d45b
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|0f7921947ddbb25591f6b3abf0bcb4f34eff141f
 
 # ANT+ (system) - from Xiaomi/laurel_sprout/laurel_sprout:10/QKQ1.190910.002/V11.0.14.0.QFQMIXM:user/release-keys
--lib/libantradio.so|d343bed6e26f99d9870f730303096f6ea8a9bcf8
--lib64/libantradio.so|43f6105678c082216f1606d8dd43fa1b0b753d7e
 product/lib/com.qualcomm.qti.ant@1.0.so|a6e5dc519d76a0d938701b8773df19cfa98596b4
 product/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
 vendor/lib/com.qualcomm.qti.ant@1.0.so|1b5236c8ad7990c2bcf5a91f1d3b3a7f2c8f8adf
