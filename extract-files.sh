@@ -74,4 +74,7 @@ patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT
 patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT}/vendor/lib64/libmlipay.so"
 patchelf --remove-needed "vendor.xiaomi.hardware.mtdservice@1.0.so" "${BLOB_ROOT}/vendor/lib64/libmlipay@1.1.so"
 
+sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${BLOB_ROOT}/vendor/lib/hw/camera.trinket.so"
+sed -i 's/libui.so/libuq.so/g' "${BLOB_ROOT}/vendor/lib/hw/camera.trinket.so"
+
 "${MY_DIR}/setup-makefiles.sh"
