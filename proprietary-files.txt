@@ -151,36 +151,13 @@ vendor/lib/libvidhance.so
 vendor/lib/libxiaomiAI_sensor.so
 vendor/lib/mibokeh_660_opencl.bin
 vendor/lib/miwatermark.so
-vendor/lib64/libseemore.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libswvdec.so
-vendor/lib64/libsysmon_cdsp_skel.so
 
 # Camera-actuators
-vendor/lib/libactuator_ad5816g.so
-vendor/lib/libactuator_ad5823.so
-vendor/lib/libactuator_ak7345.so
-vendor/lib/libactuator_ak7371.so
-vendor/lib/libactuator_bu64244gwz.so
-vendor/lib/libactuator_bu64297.so
-vendor/lib/libactuator_dw9714.so
-vendor/lib/libactuator_dw9716.so
-vendor/lib/libactuator_dw9790a.so
 vendor/lib/libactuator_ginkgo_gc2375h_ofilm_ii_dw9714.so
 vendor/lib/libactuator_ginkgo_imx582_qtech_iii_dw9800.so
 vendor/lib/libactuator_ginkgo_ov02a10_sunny_i_dw9714.so
 vendor/lib/libactuator_ginkgo_s5kgm1_ofilm_ii_dw9800.so
 vendor/lib/libactuator_ginkgo_s5kgm1_sunny_i_dw9800.so
-vendor/lib/libactuator_lc898122.so
-vendor/lib/libactuator_lc898212xd.so
-vendor/lib/libactuator_lc898212xd_qc2002.so
-vendor/lib/libactuator_lc898217xc.so
-vendor/lib/libactuator_pseudo.so
-vendor/lib/libactuator_rohm_bu64243gwz.so
 
 # Camera-arcsoft
 vendor/lib/libarcsoft_beautyshot.so
@@ -188,18 +165,6 @@ vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_preview_antibanding.so
-vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_bodyslim.so
-vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_refocus.so
-vendor/lib64/libarcsoft_dualcam_refocus_front.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
-vendor/lib64/libarcsoft_portrait_lighting.so
-vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_supernight.so
 
 # Camera-bin
 vendor/bin/mm-qcamera-app
@@ -1093,9 +1058,6 @@ vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_i_zsl_preview_3a_sn.so
 vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_i_zsl_video_3a.so
 
 # Camera-configs
-vendor/camera/fonts/MFYueYuan-Regular.ttf
-vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf
-vendor/camera/fonts/MIUI_Time.ttf
 vendor/etc/camera/arcsoft_calibration_data.bin
 vendor/etc/camera/beauty_ui9_intelligent_params_algoup.config
 vendor/etc/camera/cameraconfig.txt
@@ -1142,10 +1104,6 @@ vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/LDC_packdata_xiaomi_C3J_src1_sunny.dat
 vendor/etc/camera/LDC_packdata_xiaomi_C3J_src2_ofilm.dat
 vendor/etc/camera/libalfpc_tuning_20181222.bin
-vendor/etc/camera/male_bg.png
-vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml
@@ -1153,8 +1111,6 @@ vendor/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml
 vendor/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml
 vendor/etc/camera/morpho_lowlight4.0_algoup.xml
 vendor/etc/camera/sceneDetection.xml
-vendor/etc/camera/score_bg.png
-vendor/etc/camera/score_icon.png
 vendor/etc/camera/vidhance_C3J_calibration
 vendor/etc/camera/vidhance_C3X_calibration
 
@@ -1309,16 +1265,6 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib64/libmmcamera2_frame_algorithm.so
-vendor/lib64/libmmcamera2_is.so
-vendor/lib64/libmmcamera2_q3a_core.so
-vendor/lib64/libmmcamera2_stats_algorithm.so
-vendor/lib64/libmmcamera2_stats_lib.so
-vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib64/libmmcamera_tintless_algo.so
-vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera hax to use latest pie stock blobs
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
@@ -1331,10 +1277,12 @@ lib/libui.so:vendor/lib/libuq.so
 
 # CDSP
 vendor/bin/cdsprpcd
-vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
-vendor/lib64/libcdsp_default_listener.so
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib64/libcdsprpc.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger - from Xiaomi/laurel_sprout/laurel_sprout:10/QKQ1.190910.002/V11.0.14.0.QFQMIXM:user/release-keys
 vendor/bin/hvdcp_opti|c7c5140c5e1f84a039618d5211c754df6bd0290c
