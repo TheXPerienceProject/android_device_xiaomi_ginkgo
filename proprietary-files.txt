@@ -151,6 +151,11 @@ vendor/lib/libvidhance.so
 vendor/lib/libxiaomiAI_sensor.so
 vendor/lib/mibokeh_660_opencl.bin
 vendor/lib/miwatermark.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
+vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
+vendor/lib64/libsns_low_lat_stream_stub.so
 
 # Camera-actuators
 vendor/lib/libactuator_ginkgo_gc2375h_ofilm_ii_dw9714.so
