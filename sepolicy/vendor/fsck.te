@@ -1,0 +1,2 @@
+#sck:s0 tcontext=u:object_r:mnt_vendor_file:s0 tclass=dir permissive=1
+allow fsck mnt_vendor_file:dir getattr;
