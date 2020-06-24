@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common XPerience stuff.
 $(call inherit-product, vendor/xperience/config/common_full_phone.mk)
-$(call inherit-product, vendor/ANXCamera/config.mk)
+#$(call inherit-product, vendor/ANXCamera/config.mk)
 
 #CAF prop CAF includes
 include device/qcom/common/common.mk
