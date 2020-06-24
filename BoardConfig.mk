@@ -101,7 +101,17 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_USES_QCNE := true
 
 # Display
+MAX_EGL_CACHE_KEY_SIZE := 12*1024
+MAX_EGL_CACHE_SIZE := 2048*1024
+MAX_VIRTUAL_DISPLAY_DIMENSION := 4096
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
+TARGET_USES_DRM_PP := true
+TARGET_USES_HWC2 := true
+TARGET_USES_ION := true
+TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DISPLAY_RENDER_INTENTS := true
+VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -117,15 +127,6 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 GNSS_HIDL_VERSION := 2.0
 USE_DEVICE_SPECIFIC_GPS := true
-
-# Graphics
-MAX_EGL_CACHE_KEY_SIZE := 12*1024
-MAX_EGL_CACHE_SIZE := 2048*1024
-TARGET_USES_COLOR_METADATA := true
-TARGET_USES_DRM_PP := true
-TARGET_USES_GRALLOC1 := true
-TARGET_USES_HWC2 := true
-TARGET_USES_ION := true
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
@@ -232,4 +233,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # TODO: Relocate the system Board.mk files pickup into qssi lunch, once it is up.
 -include vendor/qcom/defs/board-defs/system/*.mk
 -include vendor/qcom/defs/board-defs/vendor/*.mk
-################################################################################# 
+#################################################################################
